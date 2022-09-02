@@ -1,4 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+
+span{
+  display: block;
+  padding: 20%;
+}
+
+.center {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
+  background-image:url(./refd.jpg);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
